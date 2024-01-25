@@ -1,18 +1,13 @@
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-
-/init/
-
-
 # IntelliJ IDEA files
 .idea/
 *.iml
+*.iws
+
+# Visual Studio Code files
+.vscode/
+
+# macOS filesystem files
+.DS_Store
 
 # Compiled class files
 bin/
@@ -27,6 +22,35 @@ out/
 *.tar.gz
 *.rar
 
+# Maven and Gradle directories
+target/
+build/
+
+# init folder
+/src/init/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+
+# Log files
+*.log
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Shelf
+/shelf/
+
+# HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Custom ignored files
+# Add any file or folder you want to ignore
